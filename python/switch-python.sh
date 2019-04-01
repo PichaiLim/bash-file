@@ -8,6 +8,7 @@ do
             echo "Switch python version 2"
             alias python=python2
             python --version
+            which python
             break
             ;;
         "Using python version 3")
@@ -15,6 +16,7 @@ do
             echo "Switch python version 3"
             alias python=python3
             python --version
+            which python
             break
             ;;
         "Check using python version")
